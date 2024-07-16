@@ -194,6 +194,10 @@ h2 {
     margin-right: 30px;
 }
 
+#about .tab-titles .tab-links:hover {
+    color: #fff;
+}
+
 #about .tab-titles .tab-links::after {
     content: '';
     width: 15px;
