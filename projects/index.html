@@ -1,10 +1,157 @@
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>My babe</title>
+
+    <!-- for styles and scripts -->
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+
+    <!-- for icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
 </head>
+
 <body>
-    
+    <div id="first">
+        <button id="first-button">Ready?</button>
+    </div>
+    <div id="main">
+        <!-- ---------- MENU ---------- -->
+        <div id="menu">
+            <div class="container">
+                <nav>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#pictures">Pictures</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contacts">Contacts</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <!-- ---------- HOME ---------- -->
+        <div id="home">
+            <div class="container">
+                <hr>
+                <h1>Home</h1>
+                <p>
+                    On this page you can take a look at my girlfriend.
+                </p>
+                <p>
+                    Be careful, she is gorgeous.
+                </p>
+                <hr>
+            </div>
+        </div>
+        <!-- ---------- PICTURES ---------- -->
+        <div id="pictures">
+            <div class="container">
+                <div class="sub-tile">
+                    <h2>Pictures about my babe</h2>
+                </div>
+                <div class="pic-list">
+                    <div class="pic">
+                        <div class="layer">
+                            <img src="images/babe1.jpg" alt="babe1">
+                        </div>
+                        
+                    </div>
+                    <div class="pic">
+                        <div class="layer">
+                            <img src="images/babe2.jpg" alt="babe2">
+                        </div>
+                        
+                    </div>
+                    <div class="pic">
+                        <div class="layer">
+                            <img src="images/babe3.jpg" alt="babe3">
+                        </div>
+                        
+                    </div>
+                    <div class="pic">
+                        <div class="layer">
+                            <img src="images/babe4.jpg" alt="babe4">                        
+                        </div>
+                    </div>
+                    <div class="pic">
+                        <div class="layer">
+                            <img src="images/babe5.jpg" alt="babe5">
+                        </div> 
+                    </div>
+                    <div class="pic">
+                        <div class="layer">
+                            <img src="images/babe6.jpg" alt="babe6">
+                        </div>
+                    </div>    
+                </div>
+            </div>
+        </div>
+        <!-- ---------- ABOUT ---------- -->
+        <div id="about">
+            <div class="container">
+                <hr>
+                <h1>About</h1>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('pros')">Pros</p>
+                    <p class="tab-links" onclick="opentab('contras')">Contras</p>
+                </div>
+                <div class="tab-contents active-tab" id="pros">
+                    <p>
+                        She is very patient, never angry.
+                        Loves kids, she'll be a good mother.
+                    </p>
+                    <p>
+                        <span>Wifey</span> material, she'll be my wifey one day.
+                    </p>
+                    <p>
+                        She has <span>big</span> beautiful eyes.
+                        Can look at me very angrily.
+                    </p>
+                </div>
+                <div class="tab-contents" id="contras">
+                    <p>
+                        The are <span>no</span> contras.
+                        I'm not brave enough to say bad things about
+                        her, cuz' she's dangerous.
+                    </p>
+                </div>
+                <hr>
+            </div>
+        </div>
+        <!-- ---------- CONTACTS ---------- -->
+        <div id="contacts">
+            <div class="container">
+                <h1>Contacts</h1>
+                <ul class="social-media">
+                    <li>
+                        <div>
+                            <i class='bx bxl-facebook-square'></i>
+                            <a href="https://www.facebook.com/profile.php?id=100074035837522">Facebook</a>
+                        </div>                  
+                    </li>
+                    <li>
+                        <div>
+                            <i class='bx bxl-instagram'></i>
+                            <a href="https://www.instagram.com/vajnaedina13/">Instagram</a>
+                        </div>                   
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- ---------- FOOTER ---------- -->
+         <div id="footer">
+            <div class="container">
+                <p>
+                    Copyright © Zorán
+                </p>
+            </div>
+         </div>
+    </div> 
 </body>
+
 </html>
